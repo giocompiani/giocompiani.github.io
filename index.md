@@ -6,6 +6,7 @@ My research primarily focuses on industrial organization and quantitative market
 
 You can download my CV <a href="https://github.com/giocompiani/giocompiani.github.io/blob/c2308ef118dfc4894d7d56d584935c33bd733a15/Giovanni_Compiani_CV_last.pdf" target="_blank">here.</a>
 
+<embed src="https://github.com/giocompiani/giocompiani.github.io/blob/Giovanni_Compiani_CV_last.pdf" width="100%" height="850px"/>
 
 [here](Giovanni_Compiani_CV_last.pdf).
 
