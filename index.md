@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+## Giovanni Compiani
 
-You can use the [editor on GitHub](https://github.com/giocompiani/giocompiani.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+I am an Assistant Professor at the University of Chicago Booth School of Business.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+My research primarily focuses on industrial organization and quantitative marketing, with an emphasis on applying frontier econometric methods to analyze markets and inform policy.
 
-### Markdown
+You can download my CV [here](https://github.com/giocompiani/giocompiani.github.io/blob/main/Giovanni_Compiani_CV_last.pdf).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Email: Giovanni.Compiani@chicagobooth.edu, gio1compiani@gmail.com
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Working Papers
 
-- Bulleted
-- List
+"Market Counterfactuals and the Specification of Multi-Product Demand: A Nonparametric Approach"
+Previously circulated as "Nonparametric Demand Estimation in Differentiated Products Markets"
+Forthcoming at Quantitative Economics
 
-1. Numbered
-2. List
+Matlab code
 
-**Bold** and _Italic_ and `Code` text
+"An Instrumental Variable Approach to Dynamic Models"
+with Steven Berry
+Forthcoming at The Review of Economic Studies
 
-[Link](url) and ![Image](src)
-```
+"Time Periods Feel Longer When They Span More Category Boundaries: Evidence From the Lab and the Field"
+with Kristin Donnelly and Ellen Evers
+Forthcoming at Journal of Marketing Research
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+"Boundaries of Differentiated Product Markets and Retailer Pricing"
+with Adam Smith
 
-### Jekyll Themes
+"A Method to Estimate Discrete Choice Models that is Robust to Consumer Search"
+with Jason Abaluck and Fan Zhang
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/giocompiani/giocompiani.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+"Online Search and Product Rankings: A Double Index Approach"
+with Greg Lewis, Sida Peng and Will Wang
 
-### Support or Contact
+"Investors’ Beliefs and Cryptocurrency Prices"
+with Matteo Benetton
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+"When cryptomining comes to town: High electricity-use spillovers to the local economy"
+with Matteo Benetton and Adair Morse
+
+
+## Publications
+
+"Empirical Models of Industry Dynamics with Endogenous Market Structure"
+with Steven Berry, Annual Review of Economics, 2021, vol. 13.
+
+"Common Values, Unobserved Heterogeneity, and Endogenous Entry in U.S. Offshore Oil Lease Auctions" 
+with Philip Haile and Marcelo Sant’Anna, The Journal of Political Economy, 2020, vol. 128.
+
+"Using Mixtures in Econometric Models: a Brief Review and Some New Results"
+with Yuichi Kitamura, The Econometrics Journal, 2016, vol. 19.
