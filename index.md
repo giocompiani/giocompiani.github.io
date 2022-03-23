@@ -4,7 +4,7 @@ I am an Assistant Professor at the University of Chicago Booth School of Busines
 
 My research primarily focuses on industrial organization and quantitative marketing, with an emphasis on applying frontier econometric methods to analyze markets and inform policy.
 
-You can download my CV <a href="https://github.com/giocompiani/giocompiani.github.io/blob/main/Giovanni_Compiani_CV_last.pdf" target="_blank">here.</a>
+You can download my CV <a href="https://github.com/giocompiani/giocompiani.github.io/main/Giovanni_Compiani_CV_last.pdf" target="_blank">here.</a>
 
 
 [here](Giovanni_Compiani_CV_last.pdf).
