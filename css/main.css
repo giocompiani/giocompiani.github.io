@@ -243,3 +243,36 @@ header > #logo {
 .abstract-toggle-arrow {
   transition: 0.25s ease;
 }
+
+
+
+@media screen and (max-width: 767px) {
+
+  #body-container > section:nth-child(2n) {
+    display: block;
+  }
+
+  #overview-text {
+    width: 100%;
+  }
+
+  #overview-portrait {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  #portrait {
+    width: 50%;
+    max-width: 50%;
+    padding-top: 1.5rem;
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+  #header-title {
+    display: none;
+  }
+}
