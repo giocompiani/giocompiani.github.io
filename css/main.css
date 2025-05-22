@@ -111,6 +111,48 @@ header > #logo {
   font-weight: 700;
 }
 
+#google-scholar-btn, .email-btn  {
+  width: fit-content;
+  background-color: #4D90FE;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#google-scholar-btn:hover, .email-btn:hover {
+  background-color: rgb(57, 131, 254);
+  cursor: pointer;
+}
+
+#google-scholar-btn:active, .email-btn:active {
+  background-color: rgb(53, 122, 232);
+}
+
+#google-scholar-btn > img, .email-btn > img {
+  max-height: 20px;
+}
+
+#academic-email-btn {
+  margin-right: 10px;
+  background-color: rgb(132, 0, 0);
+}
+
+#academic-email-btn:hover {
+  background-color: #660000;
+}
+
+#academic-email-btn:active {
+  background-color: #5B0F00;
+}
 
 
 #body-container > section:nth-child(2n) {
