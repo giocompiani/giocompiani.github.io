@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta property="og:title" content="Giovanni Compiani">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.giovannicompiani.com/home">
+    <meta property="og:description" content="I am an Assistant Professor at the University of Chicago Booth School of Business.  A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about">
+    <meta itemprop="name" content="Giovanni Compiani">
+    <meta itemprop="description" content="I am an Assistant Professor at the University of Chicago Booth School of Business.  A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about">
+    <meta itemprop="url" content="https://www.giovannicompiani.com/home">
+    <meta itemprop="thumbnailUrl" content="https://lh4.googleusercontent.com/hnSura71yr-_ol21dZJvuD-EcqHPMYh3XQ17dYcP3qGIJugvU5QfiPdJdicJg3qP0L8Q4w=w16383">
+    <meta itemprop="image" content="https://lh4.googleusercontent.com/hnSura71yr-_ol21dZJvuD-EcqHPMYh3XQ17dYcP3qGIJugvU5QfiPdJdicJg3qP0L8Q4w=w16383">
+    <meta itemprop="imageUrl" content="https://lh4.googleusercontent.com/hnSura71yr-_ol21dZJvuD-EcqHPMYh3XQ17dYcP3qGIJugvU5QfiPdJdicJg3qP0L8Q4w=w16383">
+    <meta property="og:image" content="https://lh4.googleusercontent.com/hnSura71yr-_ol21dZJvuD-EcqHPMYh3XQ17dYcP3qGIJugvU5QfiPdJdicJg3qP0L8Q4w=w16383">
+    
+    <link rel="icon" href="https://www.uchicago.edu/dist/intranet/favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand%3A300%2C400%2C700%7CSource%20Sans%20Pro%3A400%2C400italic%2C600%2C700%2C700italic&amp;display=swap" rel="stylesheet" nonce="">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:300,400,500,700|Source+Code+Pro:400,700&amp;display=swap" rel="stylesheet" nonce="">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand%3Ai%2Cbi%2C700%2C400&amp;display=swap" rel="stylesheet" nonce="">
+    <link type="text/css" rel="stylesheet" href="css/fonts.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    
+    <script src=" https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
+    <script type="text/javascript">
+      $(document).on('scroll', function(){
+          if ( $(window).scrollTop() > 30) {
+              $('header').addClass('header-scrolled');
+          } else {
+              $('header').removeClass('header-scrolled');
+          }
+      });
+    </script>
+
+    <title>Giovanni Compiani</title>
+
+</head>
+
+<body>
+  <header> 
+    <img id="logo" src="images/university_of_chicago_logo.png" aria-label="University of Chicago logo" />
+    <span id="header-title">Giovanni Compiani</span>
+  </header>
+  <div id="body-container">
+    <section>
+      <div id="main-title">Giovanni Compiani</div>
+    </section>
+
+    <section>
+      <div id="overview-text">
+        <p>I am an Assistant Professor at the University of Chicago Booth School of Business.</p>
+
+        <p>A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about economic agents' behavior and, more recently, integrate novel data sources, including unstructured data.</p>
+
+        <p>You can download my <b>CV</b> <a href="https://drive.google.com/file/d/18vOTXkWazPGHM6KRNtBXdedC_fWx2_eW/view">here</a>.</p>
+
+        <p><b><a href="https://scholar.google.com/citations?user=FA3pQysAAAAJ&hl=en">Google Scholar</a></b></p>
+
+        <p><b>Email</b>: <a href="mailto:Giovanni.Compiani@chicagobooth.edu">Giovanni.Compiani@chicagobooth.edu</a>, <a href="mailto:gio1compiani@gmail.com">gio1compiani@gmail.com</a></p>
+
+        <p>For prospective students: please submit your PhD applications on the Booth website, email applications will not be considered.</p>
+
+        <br>
+      </div>
+      <div id="overview-portrait">
+        <img id="portrait" src="images/portrait_giovanni_compiani.jpg" />
+      </div>
+    </section>
+
+    <section>
+      <br></br>
+
+      <h2>Working Papers</h2>
+      <br>
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4588941">"Demand Estimate with Text and Image Data"</a></li>
+        </ul>
+        <p>with <a href="https://sites.google.com/stanford.edu/imorozov/home">Ilya Morozov</a> and <a href="https://www.seilerstephan.com/research">Stephan Seiler</a></p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1JDV3-gPOekAaGjJmn3cZERPSkg2515kl/view?usp=sharing">"A Method to Estimate Discrete Choice Models that is Robust to Consumer Search"</a></li>
+        </ul>
+        <p>with <a href="https://som.yale.edu/faculty/jason-abaluck">Jason Abaluck</a> and <span style="color :#660000">Fan Zhang</span></p>
+        <p><i>Revision Requested at <b>The Journal of Political Economy</b></i></p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1VQH9VBS2pxINvuVLV6pWGNHmSGPVfwKX/view?usp=sharing">"An Equilibrium Model of Rollover Lotteries"</a></li>
+        </ul>
+        <p>with <a href="https://lorenzomagnolfi.com/">Lorenzo Magnolfi</a> and <a href="https://www.lonessmith.com/">Lones Smith</a></p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1Er2TdXsmqEmfjMaJqXrtMO5tB8LV0XiA/view?usp=sharing">"When Cryptomining Comes to Town: High Electricity-Use Spillovers to the Local Economy"</a></li>
+        </ul>
+        <p>with <a href="https://sites.google.com/view/matteobenetton/home">Matteo Benetton</a> and <a href="https://sites.google.com/berkeley.edu/adair-morse/">Adair Morse</a></p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+      <br>
+
+      <h2>Publications</h2>
+      <br>
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/13QZhyjWIvGCFuz4sM2c3uy3FHzrdU1ZM/view?usp=sharing">"Online Search and Optimal Product Rankings: An Empirical Framework"</a></li>
+        </ul>
+        <p>with <a href="https://www.gregmlewis.com/">Greg Lewis</a>, <a href="https://www.sidapeng.com/">Sida Peng</a> and <a href="https://sites.google.com/site/willpeichunwang/">Will Wang</a>, <i><b>Marketing Science</b></i>, 2024, vol.43.</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1msxDHnPzUUdZlrJqV35y8BuiZwup7Y1A/view?usp=sharing">"Investors’ Beliefs and Cryptocurrency Prices"</a></li>
+        </ul>
+        <p>with <a href="https://sites.google.com/view/matteobenetton/home">Matteo Benetton</a>, <i><b>The Review of Asset Pricing Studies</b></i>, 2024, vol.14, <u>Editor's Choice</u>.</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1UUewh9BBMbqGF5xfQGAL-RLle3osDLlB/view?usp=sharing">"An Instrumental Variable Approach to Dynamic Models"</a></li>
+        </ul>
+        <p>with <a href="https://economics.yale.edu/people/steven-berry">Steven Berry</a>, <i><b>The Review of Economic Studies</b></i>, 2023, vol.90.</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1iyUKEKZ2Q9yJjRPoSc-Facs18sft1eNc/view?usp=sharing">"Market Counterfactuals and the Specification of Multi-Product Demand: A Nonparametric Approach"</a></li>
+        </ul>
+        <p><i><b>Quantitative Economics</b></i>, 2022, vol.13. [<a href="https://drive.google.com/file/d/1a82AO2W7m_CVokJU3dTUFvzdusNdxGYK/view?usp=sharing">Matlab code</a>]</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1eTySySaS5tuOzvrybVOx3R5pZ_xn5g50/view?usp=sharing">"Time Periods Feel Longer When They Span More Category Boundaries: Evidence From the Lab and the Field"</a></li>
+        </ul>
+        <p>with <a href="https://www.kristin-donnelly.com/">Kristin Donnelly</a> and <a href="https://haas.berkeley.edu/faculty/evers-ellen/">Ellen Evers</a>, <i><b>Journal of Marketing Research</b></i>, 2022, vol.59.</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1R-7jAYdiuS6nuWagjQVlS1xWFaBKAWmU/view?usp=sharing">"Empirical Models of Industry Dynamics with Endogenous Market Structure"</a></li>
+        </ul>
+        <p>with <a href="https://economics.yale.edu/people/steven-berry">Steven Berry</a>, <i><b>Annual Review of Economics</b></i>, 2021, vol.13.</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/19Qw82wgjlGj7AjaKjjrv1-uWXRyyUr3p/view?usp=sharing">"Common Values, Unobserved Heterogeneity, and Endogenous Entry in U.S. Offshore Oil Lease Auctions" </a></li>
+        </ul>
+        <p>with <a href="https://economics.yale.edu/people/philip-haile">Philip Haile</a> and <a href="https://marcelosantanna.wordpress.com/">Marcelo Sant’Anna</a>, <i><b>The Journal of Political Economy</b></i>, 2020, vol.128.</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- Copy this block to create a new entry in this section -->
+      <div class="work-entry">
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1eKbL5I7FZbt2tKCji05WMcXh5edB59UM/view?usp=sharing">"Using Mixtures in Econometric Models: a Brief Review and Some New Results"</a></li>
+        </ul>
+        <p>with <a href="https://economics.yale.edu/people/yuichi-kitamura">Yuichi Kitamura</a>, <i><b>The Econometrics Journal</b></i>, 2016, vol.19.</p>
+      </div>
+      <br>
+      <!-- This is the end of an individual list item -->
+
+
+      <!-- REUSABLE TEMPLATE FOR NEW PAPERS/PUBLICATIONS -->
+
+        <!-- To complete a template, replace the following items with the corresponding data:
+            (Replace everything inlucindg the {{ }} (curly braces), but do not replace any quotation marks that are alread in the template!)
+
+                {{ link_to_publication }} = The link to the published work where you want visitors to be taken
+                {{ publication_title }} = The text you want displayed as the title of the publication
+                {{ link_to_colleague }} = The link to a colleague's webpage
+                {{ colleague_name }} = The name of the colleage to whose page you are linking
+                {{ citation }} = The citation for your paper
+              
+            To add multiple colleagues to one publication, locate the </a> tag following the colleague's name.  Following that tag, you can enter whatever text you want (such as "and").
+            To link to an added colleague's page, wrap their name (which you typed in) in tags like this: <a href="">[here is the name you typed]</a>.  Inside the quotes of "href", paste the link to their page.
+
+            To italicize, bold, and or underline a word or words in your citation, wrap the words you want modified in one or more of the following tags:
+                <i></i> = Italics
+                <b></b> = Bold
+                <u></u> = Underline
+
+            To make the new entry visible, copy the entire block (from <div class=... through <br>) and paste it in the appropriate section above.
+
+            The template is as follows:
+
+              <div class="work-entry">
+                <ul>
+                  <li><a href="{{link_to_publication}}">{{publication_title}}</a></li>
+                </ul>
+                <p>with <a href="{{ link_to_colleague }}">{{ colleague_name }}</a>, {{ citation }}</p>
+              </div>
+              <br>
+              
+        -->
+
+      <!-- END OF TEMPLATE -->
+
+    </section>
+  </div>
+</body>
+
+</html>
