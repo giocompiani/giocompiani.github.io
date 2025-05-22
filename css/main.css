@@ -224,3 +224,22 @@ header > #logo {
   padding-right: 0.0pt;
   padding-top: 0.0pt;
 }
+
+.abstract-toggle {
+  color: #660000;
+  float: right;
+}
+
+.abstract-toggle:hover {
+  cursor: pointer;
+}
+
+.abstract {
+  display: none;
+  color: rgb(33, 33, 33);
+  font-style: italic;
+}
+
+.abstract-toggle-arrow {
+  transition: 0.25s ease;
+}
