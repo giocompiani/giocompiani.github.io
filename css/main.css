@@ -93,9 +93,9 @@ header > #logo {
 }
 
 #body-container > section:first-child {
-  height: 99px;
-  padding-top: 60px;
-  padding-bottom: 61px;
+  height: 30px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,9 +107,9 @@ header > #logo {
   font-weight: 700;
 }
 
-#google-scholar-btn, .email-btn  {
+.custom-btn  {
   width: fit-content;
-  background-color: #4D90FE;
+  background-color: rgb(33, 33, 33);
   border-radius: 5px;
   border: none;
   color: #FFF;
@@ -122,32 +122,25 @@ header > #logo {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
 }
 
-#google-scholar-btn:hover, .email-btn:hover {
-  background-color: rgb(57, 131, 254);
+.custom-btn:hover {
+  background-color: rgb(44, 44, 44);
   cursor: pointer;
 }
 
-#google-scholar-btn:active, .email-btn:active {
-  background-color: rgb(53, 122, 232);
+.custom-btn:active {
+  background-color: rgb(55, 55, 55);
 }
 
-#google-scholar-btn > img, .email-btn > img {
+.custom-btn:visited {
+  color: #FFF;
+}
+
+.custom-btn > img {
   max-height: 20px;
-}
-
-#academic-email-btn {
-  margin-right: 10px;
-  background-color: rgb(132, 0, 0);
-}
-
-#academic-email-btn:hover {
-  background-color: #660000;
-}
-
-#academic-email-btn:active {
-  background-color: #5B0F00;
 }
 
 
@@ -169,6 +162,7 @@ header > #logo {
 
 #overview-portrait {
   width: 23%;
+  margin-top: 1em;
   padding-left: 2%;
   display: block;
 }
