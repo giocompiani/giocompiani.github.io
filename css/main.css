@@ -213,7 +213,7 @@ header > #logo {
   margin-left: 15.0pt;
 }
 
-.work-entry p {
+.work-entry p, .work-entry main {
   line-height: 1.5;
   margin-bottom: 0.5pt;
   margin-left: 15.0pt;

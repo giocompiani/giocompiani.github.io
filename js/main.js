@@ -40,9 +40,9 @@ async function loadFromCSV() {
         </ul>
         <p>{{ citation }}</p>
         <p class="abstract-toggle">[abstract]</p>
-        <p class="abstract">
+        <article class="abstract">
           ${entries[entry][9]}
-        </p>
+        </article>
       </div>
       <br>
       <!-- This is the end of an individual list item --></br>`;
