@@ -32,7 +32,7 @@ async function loadFromCSV() {
 
   for(let entry in entries) {
     let template = `<!-- Copy this block to create a new entry in this section -->
-      <div class="work-entry">
+      <article class="work-entry">
         <ul>
           <li>
             <a href="${entries[entry][2]}">${entries[entry][1]}</a>
@@ -40,10 +40,10 @@ async function loadFromCSV() {
         </ul>
         <p>{{ citation }}</p>
         <p class="abstract-toggle">[abstract]</p>
-        <article class="abstract">
+        <main class="abstract">
           ${entries[entry][9]}
-        </article>
-      </div>
+        </main>
+      </article>
       <br>
       <!-- This is the end of an individual list item --></br>`;
     
