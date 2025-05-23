@@ -55,7 +55,7 @@ async function loadFromCSV() {
       let count = 0;
 
       while(count < authors.length) {
-        citation += `<a href="${author_urls[count]}">${authors[count]}</a>`;
+        citation += `<a rel="author" href="${author_urls[count]}">${authors[count]}</a>`;
         if(count < authors.length - 2 && authors.length > 2) {
           citation += ', ';
         }
