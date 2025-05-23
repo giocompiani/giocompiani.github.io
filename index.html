@@ -40,10 +40,7 @@
       $(document).ready(function() {
         $('.abstract-toggle').on('click', function() {
           let abstract = $(this).closest('.work-entry').children('.abstract');
-          abstract.slideToggle(500, function() {
-            let arrow = $(this).closest('.work-entry').children('ul').children('li').children('.abstract-toggle').children('.abstract-toggle-arrow');
-            arrow.html($(this).is(':visible') ? '&#9650;': '&#9660;');
-          });
+          abstract.slideToggle(500);
         });
       })
     </script>

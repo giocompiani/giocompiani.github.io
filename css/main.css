@@ -36,6 +36,7 @@ header {
   height: 56px;
   width: 100%;
   z-index: 100;
+  display: none;
 
   transition: 0.15s ease;
 }
@@ -84,16 +85,11 @@ header > #logo {
   table-layout: fixed;
   width: calc(100% - 8px);
   max-width: 1184px;
-  border-bottom: 3px solid rgba(0,0,0,0.150000006);
   padding-left: 8px;
   padding-bottom: 8px;
   margin-bottom: 8px;
   font-family: "Source Sans Pro", sans-serif;
   color: rgb(33, 33, 33);
-}
-
-#body-container > section:last-child {
-  border-bottom: none;
 }
 
 #body-container > section:first-child {
