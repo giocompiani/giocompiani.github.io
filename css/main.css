@@ -100,11 +100,20 @@ header > #logo {
   justify-content: center;
   align-items: center;
   font-family: "Quicksand", sans-serif;
+  text-align: center;
 }
 
 #main-title {
   font-size: 24.0pt;
   font-weight: 700;
+}
+
+.custom-btn-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 .custom-btn  {
@@ -123,6 +132,7 @@ header > #logo {
   justify-content: space-around;
   align-items: center;
   margin-right: 10px;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 
@@ -261,8 +271,37 @@ header > #logo {
 }
 
 
-@media screen and (max-width: 480px) {
-  #header-title {
-    display: none;
+@media screen and (max-width: 600px) {
+  #body-container {
+    width: 92.25%;
+    padding-left: 3.75%;
+    padding-right: 4%;
+  }
+
+
+  #main-title {
+    font-size: 20.0pt;
+  }
+
+  #portrait {
+    width: 75%;
+    max-width: 75%;
+  }
+
+  .custom-btn-group {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .custom-btn {
+    width: 92.25%;
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .custom-btn-group:last-of-type .custom-btn:last-of-type {
+    margin-bottom: 0;
   }
 }
