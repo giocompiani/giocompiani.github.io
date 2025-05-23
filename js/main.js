@@ -35,7 +35,7 @@ async function loadFromCSV() {
       <article class="work-entry">
         <ul>
           <li>
-            <a href="${entries[entry][2]}">${entries[entry][1]}</a>
+            <a href="${entries[entry][2]}" target="_blank">${entries[entry][1]}</a>
           </li>
         </ul>
         <p>{{ citation }}</p>
