@@ -226,8 +226,8 @@ header > #logo {
 }
 
 .abstract-toggle {
+  width: fit-content;
   color: #660000;
-  float: right;
 }
 
 .abstract-toggle:hover {
