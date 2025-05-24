@@ -153,6 +153,10 @@ header > #logo {
   max-height: 20px;
 }
 
+#academic-email-btn-mobile, #personal-email-btn-mobile {
+  display: none;
+}
+
 
 #body-container > section:nth-child(2n) {
   font-weight: 400;
@@ -290,18 +294,26 @@ header > #logo {
 
   .custom-btn-group {
     width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     margin: 0;
   }
 
   .custom-btn {
-    width: 92.25%;
+    width: 42%;
     margin-right: 0;
     justify-content: center;
   }
 
   .custom-btn-group:last-of-type .custom-btn:last-of-type {
     margin-bottom: 0;
+  }
+ 
+  #academic-email-btn, #personal-email-btn {
+    display: none;
+  }
+
+  #academic-email-btn-mobile, #personal-email-btn-mobile {
+    display: flex;
   }
 }
