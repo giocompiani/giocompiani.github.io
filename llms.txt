@@ -1,0 +1,81 @@
+# Giovanni Compiani
+
+> I am an Assistant Professor at the University of Chicago Booth School of Business.  A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this,  I develop methods that relax restrictive assumptions about economic agents' behavior and, more recently, integrate novel data sources, including unstructured data.
+
+
+
+## Keywords
+
+- demand estimation
+- unstructured data
+- deep learning
+- discrete choice models
+- consumer search
+- equilibrium model
+- rollover lotteries
+- cryptomining
+- local economy
+- online platforms
+- product rankings
+- recommendation system
+- investors beliefs
+- cryptocurrency prices
+- dynamic models
+- instrumental variables
+- state dependence
+- initial conditions
+- nonparametric demand estimation
+- incomplete tax pass-through
+- multiproduct firm
+- time perception
+- scheduling
+- categories
+- estimation
+- field data
+- endogenous market structure
+- autocorrelation
+- state dependence
+- two-step methods
+- common values
+- heterogeneity
+- endogenous entry
+- oil lease
+- auctions
+- continuous mixture models
+- finite mixture models
+- multiple equilibria
+- consumer inattention
+- incomplete models
+
+
+
+## Working Papers
+
+- [Demand Estimate with Text and Image Data](https://giovannicompiani.com/documents/ssrn-4588941-1.pdf): We propose a demand estimation method that leverages unstructured text and image data to infer substitution patterns. Using pre-trained deep learning models, we extract embeddings from product images and textual descriptions and incorporate them into a random coefficients logit model. This approach enables researchers to estimate demand even when they lack data on product attributes or when consumers value hard-to-quantify attributes, such as visual design or functional benefits. Using data from a choice experiment, we show that our approach outperforms standard attribute-based models in counterfactual predictions of consumers’ second choices. We also apply it across 40 product categories on Amazon.com and consistently find that text and image data help identify close substitutes within each category. 
+- [A Method to Estimate Discrete Choice Models that is Robust to Consumer Search](https://giovannicompiani.com/documents/RobustSearch.pdf): We state conditions under which choice data suffices to identify preferences when consumers may not be fully informed about attributes of goods. Our approach can be used to test for full information, forecast how consumers will respond to information, and conduct welfare analysis when consumers are imperfectly informed. In a lab experiment, we successfully forecast the average response to new information when consumers engage in costly search. In data from Expedia, our method identifies which attribute was not immediately visible to consumers in search results, and we then use our model to compute the value of additional information.
+- [An Equilibrium Model of Rollover Lotteries](https://giovannicompiani.com/documents/Lotteries.pdf): We develop a novel model of rollover lottery ticket sales, assuming preferences over thrill and money won. Treating the monetary loss on tickets as an implicit price, lottery rules imply an inverse supply curve. Growing jackpots shift the inverse supply down, and help identify the falling demand curve arising from thrill heterogeneity. We nonparametrically estimate the demand for Powerball.<br>Our model allows risk aversion or risk loving preferences, but we show that even slight deviations from risk neutrality deviate from the data tremendously. This is a high stakes empirical test (based on 160 million gamblers) of Rabin’s (2000) calibration theorem that low stakes risk aversion yields implausible larger stakes implications. While ticket buyers are risk neutral, Powerball acts as a risk loving gambler for rollovers up to $540M, but should cap the jackpot at $920M.<br>Aside from the excellent model fit, we check risk neutrality in two ways. First, we characterize how log ticket sales should convexly grow in the log jackpot at least up to $409M — which we verify in Powerball data. Next, lottery odds should scale linearly in the population — which we verify in a regression across forty state rollover lotteries.
+- [When Cryptomining Comes to Town: High Electricity-Use Spillovers to the Local Economy](https://giovannicompiani.com/documents/BCM_WP_2023.pdf): Cryptomining, the clearing of cryptocurrency transactions, uses large quantities of electricity. We document that cryptominers' use of local electricity implies higher electricity prices for existing small businesses and households. Studying the electricity market in Upstate NY and using the Bitcoin price as an exogenous shifter of the part of the supply curve faced by the community, we estimate the electricity demand functions for small businesses and households. Based on our estimates, we calculate counterfactual electricity bills, finding that small businesses and households paid an extra $92 million and $204 million annually in Upstate NY because of increased electricity consumption from cryptominers. Local governments in Upstate NY realize more business taxes, but this only offsets a small portion of the costs from higher community electricity bills. Using data on China, where electricity prices are fixed, we find that rationing of electricity in cities with cryptomining entrants deteriorates wages and investments, consistent with crowding-out effects on the local economy. Our results point to a yet-unstudied negative spillover from technology processing to local communities, which would need to be considered against welfare benefits.
+
+
+
+## Publications
+
+- [Online Search and Optimal Product Rankings: An Empirical Framework](https://giovannicompiani.com/documents/OptimalRankings.pdf): We study the problem faced by an online retail platform choosing product rankings in order to maximize two distinct goals: consumer surplus and revenues/profits. To this end, we specify a version of the Weitzman sequential search model in which search reveals a consumer’s idiosyncratic taste for the product as well as vertical dimensions of its quality, and we derive convenient expressions for consumer surplus and revenues. To optimize consumer surplus, platforms should facilitate product discovery by promoting “diamonds in the rough,” that is, products with a large gap between the utility they deliver and what consumers expect based on the presearch information. By contrast, to maximize static revenues, the platform should favor high-margin products, potentially creating a tension between the two objectives. We develop computationally tractable algorithms for estimating consumer preferences and optimizing rankings, and we provide approximate optimality guarantees in the latter case. When we apply our approach to data from Expedia, our suggested consumer surplus–optimizing ranking achieves both higher consumer surplus and higher revenues relative to the Expedia ranking—delivering a Pareto improvement—and also dominates ranking the products in order of utility, which is intuitive but fails to leverage information on what consumers know presearch.
+- [Investors’ Beliefs and Cryptocurrency Prices](https://giovannicompiani.com/documents/CryptoBeliefs.pdf): We explore the impact of investors’ beliefs on cryptocurrency demand and prices using new individual-level survey data and a structural characteristics-based demand model with differentiated cryptocurrencies and heterogeneous investors. We show that younger individuals with lower incomes are more optimistic about the future value of cryptocurrencies, as are late investors. We identify the model combining observable beliefs with an instrumental variable strategy that exploits variation in the production of different cryptocurrencies. Counterfactual analyses quantify the impact on portfolio allocations and equilibrium prices of (i) (regulating) entry of late optimistic investors, and (ii) growing concerns among investors about the sustainability of energy-intensive proof-of-work cryptocurrencies. (JEL: D84, G11, G41)
+- [An Instrumental Variable Approach to Dynamic Models](https://giovannicompiani.com/documents/Dynamics.pdf): We present a new class of methods for identification and inference in dynamic models with serially correlated unobservables, which typically imply that state variables are econometrically endogenous. In the context of Industrial Organization, these state variables often reflect econometrically endogenous market structure. We propose the use of Generalized Instrument Variables methods to identify those dynamic policy functions that are consistent with instrumental variable (IV) restrictions. Extending popular “two-step” methods, these policy functions then identify a set of structural parameters that are consistent with the dynamic model, the IV restrictions and the data. We provide computed illustrations to both single-agent and oligopoly examples. We also present a simple empirical analysis that, among other things, supports the counterfactual study of an environmental policy entailing an increase in sunk costs.
+- [Market Counterfactuals and the Specification of Multi-Product Demand: A Nonparametric Approach](https://giovannicompiani.com/documents/NonparametricDemand.pdf): Demand estimates are essential for addressing a wide range of positive and normative questions in economics that are known to depend on the shape—and notably the curvature—of the true demand functions. The existing frontier approaches, while allowing flexible substitution patterns, typically require the researcher to commit to a parametric specification. An open question is whether these a priori restrictions are likely to significantly affect the results. To address this, I develop a nonparametric approach to estimation of demand for differentiated products, which I then apply to California supermarket data. While the approach subsumes workhorse models such as mixed logit, it allows consumer behaviors and preferences beyond standard discrete choice, including continuous choices, complementarities across goods, and consumer inattention. When considering a tax on one good, the nonparametric approach predicts a much lower pass-through than a standard mixed logit model. However, when assessing the market power of a multiproduct firm relative to that of a single-product firm, the models give similar results. I also illustrate how the nonparametric approach may be used to guide the choice among parametric specifications. Keywords. Nonparametric demand estimation, incomplete tax pass-through, multiproduct firm.
+- [Time Periods Feel Longer When They Span More Category Boundaries: Evidence From the Lab and the Field](https://giovannicompiani.com/documents/TimeBoundaries.pdf): Seven experiments (total N =3,509) and a large field data set (N =1,820,671) demonstrate that time periods of equal duration are not always perceived as equivalent. The authors find that periods feel longer when they span more time categories (e.g., hour, month). For example, periods like 1:45 P.M.–3:15 P.M. and March 31–April 6 (boundary-expanded) feel longer than, say, 1:15 P.M.–2:45 P.M. and April 2–April 8 (boundary-compressed). Reflecting this, participants anticipated completing more work during boundary-expanded periods than during equivalent boundary-compressed periods. This effect appears to result from the salience and placement of time boundaries. Consequently, participants preferred scheduling pleasant activities for boundary-expanded periods and unpleasant activities for boundary-compressed periods. Moreover, participants were willing to pay more to avoid—and required more money to endure—a long wait when that wait was presented as boundary-expanded. Finally, data from more than 1.8 million rideshare trips suggest that consumers are more likely to choose independent rides (e.g., UberX) when they are boundary-compressed when the alternative shared option (e.g., UberPool) is boundary-expanded. Together, our studies reveal that time periods feel longer when they span more boundaries and that this phenomenon shapes consumers’ scheduling and purchasing decisions.
+- [Empirical Models of Industry Dynamics with Endogenous Market Structure](https://giovannicompiani.com/documents/Dynamics_ARE.pdf): This article reviews recent developments in the study of firm and industry dynamics, with a special emphasis on the econometric endogeneity of market structure. The endogeneity of market structure follows from the presence of serially correlated unobservable shocks to the profitability of firms’ dynamic decisions, a feature common to many empirical settings. Methods that ignore endogeneity can lead to misleading parameter estimates and misleading counterfactual results. We pay particular attention to extensions of standard two-step methods that leverage instrumental variables to address endogeneity in both single-agent and oligopoly models. A first step set-identifies dynamic policy functions together with serial correlation parameters, and a second step quickly solves for profit function parameters using an extension of existing forward-simulation methods. We discuss how these new methods provide a general solution to initial-conditions problems and how they can yield practical estimation strategies.
+- [Common Values, Unobserved Heterogeneity, and Endogenous Entry in U.S. Offshore Oil Lease Auctions](https://giovannicompiani.com/documents/Auctions.pdf): Although an auction of drilling rights is often cited as an example of common values, formal evidence has been limited by the problem of auction-level unobserved heterogeneity. We develop an empirical approach for first-price sealed-bid auctions with affiliated values, unobserved heterogeneity, and endogenous bidder entry. We show that important features of the model are nonparametrically identified and apply a semiparametric estimation approach to data from US offshore oil and gas lease auctions. We find that common values, affiliated private information, and unobserved heterogeneity are all present. Failing to account for unobserved heterogeneity obscures the evidence of common values. We examine implications of our estimates for the interaction between affiliation, the winner’s curse, the auction rules, and the number of bidders in determining the aggressiveness of bidding and seller revenue.
+- [Using Mixtures in Econometric Models: a Brief Review and Some New Results](https://giovannicompiani.com/documents/Mixtures.pdf): This paper is concerned with applications of mixture models in econometrics. Focused attention is given to semiparametric and nonparametric models that incorporate mixture distributions, where important issues about model specifications arise. For example, there is a significant difference between a finite mixture and a continuous mixture in terms of model identifiability. Likewise, the dimension of the latent mixing variables is a critical issue, in particular when a continuous mixture is used. We present applications of mixture models to address various problems in econometrics, such as unobserved heterogeneity and multiple equilibria. New nonparametric identification results are developed for finite mixture models with testable exclusion restrictions without relying on an identification-at-infinity assumption on covariates. The results apply to mixtures with both continuous and discrete covariates, delivering point identification under weak conditions.
+
+
+
+## Docs
+
+- [CV of Giovanni Compiani](https://giovannicompiani.com/documents/Giovanni_Compiani_CV_last.pdf): Cirriculum Vitae of Giovanni Compiani.
+
+
+
+## Optional
+- [Extended Context](https://giovannicompiani.com/llms-full.txt)
