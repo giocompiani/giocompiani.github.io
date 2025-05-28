@@ -30,6 +30,8 @@ async function loadFromCSV() {
   let entries = CSV.parse(result);
   let headers = entries.shift();
 
+  console.log(entries);
+
   for(let entry in entries) {
     let template = `<!-- Copy this block to create a new entry in this section -->
       <article class="work-entry">
@@ -42,6 +44,7 @@ async function loadFromCSV() {
         <p class="abstract-toggle">[abstract]</p>
         <main class="abstract">
           ${entries[entry][9]}
+          ${entries[entry][10] !== null && entries[entry][10] !== undefined && entries[entry][10] != "" ? '<br><b>Keywords:&nbsp;</b>' + entries[entry][10] : ''}
         </main>
       </article>
       <br>
@@ -72,7 +75,6 @@ async function loadFromCSV() {
       if(entries[entry][7]) citation += `, vol.${entries[entry][7]}`;
       if(entries[entry][8]) citation += `, <u>${entries[entry][8]}</u>`;
       if(entries[entry][5] || entries[entry][6] || entries[entry][7] || entries[entry][8]) citation += '.';
-      console.log(citation);
       template = template.replace("{{ citation }}", citation);
     }
     else {
