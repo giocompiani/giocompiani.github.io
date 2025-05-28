@@ -305,7 +305,7 @@
       </script>
     <!-- End SEO/LLMO Tags -->
 
-    <link rel="icon" href="https://www.uchicago.edu/dist/intranet/favicon.ico">   <!-- To change the "favicon" (the image that shows in the browser tab), change the src of this element to the image you want to use. -->
+    <link rel="icon" href="https://www.uchicago.edu/dist/intranet/favicon.ico">   <!-- To change the "favicon" (the image that shows in the browser tab), change the href of this element to the image you want to use. -->
     <link rel="canonical" href="https://www.giovannicompiani.com" />
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -314,6 +314,16 @@
     <script src=" https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
     <script type="text/javascript" src="js/csv.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7SLLZ79ZK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-H7SLLZ79ZK');
+    </script>
 
 </head>
 
@@ -351,7 +361,7 @@
 
       </summary>
       <div id="overview-portrait">
-        <img id="portrait" src="images/portrait_giovanni_compiani.jpg" alt="Picutre of Giovanni Compiani"/>
+        <img id="portrait" src="images/portrait_giovanni_compiani.jpg" alt="Picture of Giovanni Compiani"/>
       </div>
     </section>
 
@@ -425,7 +435,7 @@
           <p class="abstract-toggle">[abstract]</p>
           <main class="abstract">
             Cryptomining, the clearing of cryptocurrency transactions, uses large quantities of electricity. We document that cryptominers’ use of local electricity implies higher electricity prices for existing small businesses and households. Studying the electricity market in Upstate NY and using the Bitcoin price as an exogenous shifter of the part of the supply curve faced by the community, we estimate the electricity demand functions for small businesses and households. Based on our estimates, we calculate counterfactual electricity bills, finding that small businesses and households paid an extra $92 million and $204 million annually in Upstate NY because of increased electricity consumption from cryptominers. Local governments in Upstate NY realize more business taxes, but this only offsets a small portion of the costs from higher community electricity bills. Using data on China, where electricity prices are fixed, we find that rationing of electricity in cities with cryptomining entrants deteriorates wages and investments, consistent with crowding-out effects on the local economy. Our results point to a yet-unstudied negative spillover from technology processing to local communities, which would need to be considered against welfare benefits.
-          </p>
+          </main>
         </article>
         <br>-->
         <!-- This is the end of an individual list item -->
@@ -576,6 +586,8 @@
           <main class="abstract">
             This paper is concerned with applications of mixture models in econometrics. Focused attention is given to semiparametric and nonparametric models that incorporate mixture distributions, where important issues about model specifications arise. For example, there is a significant difference between a finite mixture and a continuous mixture in terms of model identifiability. Likewise, the dimension of the latent mixing variables is a critical issue, in particular when a continuous mixture is used. We present applications of mixture models to address various problems in econometrics, such as unobserved heterogeneity and multiple equilibria. New nonparametric identification results are developed for finite mixture models with testable exclusion restrictions without relying on an identification-at-infinity assumption on covariates. The results apply to mixtures with both continuous and discrete covariates, delivering point identification under weak conditions.
           </main>
+          <br>
+          <b>Keywords:&nbsp;</b>Continuous mixture models, Finite mixture models, Multiple equilibria, Nonparametric identification, Unobserved heterogeneity
         </article>
         <br>-->
         <!-- This is the end of an individual list item -->
@@ -612,7 +624,7 @@
                     <a href="{{link_to_publication}}" target="_blank">{{publication_title}}</a>
                   </li>
                 </ul>
-                <p>with <a rel="author" href="{{ link_to_colleague }}" target="_blank">{{ colleague_name }}</a>, {{ citation }}</p>
+                <p>with <a rel="author" href="{{ link_to_colleague }}" target="_blank">{{ colleague_name }}</a> and <a rel="author" href="{{ link_to_colleague }}" target="_blank">{{ colleague_name }}</a>, {{ citation }}</p>
                 <p class="abstract-toggle">[abstract]</p>
                 <main class="abstract">
                   {{ abstract_text }}
