@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: entries.csv
-Sitemap: https://giovannicompiani.com/sitemap.xml
+Sitemap: https://www.giovannicompiani.com/sitemap.xml
