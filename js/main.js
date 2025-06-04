@@ -9,7 +9,7 @@ $(document).on('scroll', function(){
 });
 
 $(document).ready(async function() {
-  await loadFromCSV();
+  //await loadFromCSV();
   setAbstractHandlers();
 });
 
