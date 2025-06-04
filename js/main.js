@@ -83,5 +83,6 @@ async function loadFromCSV() {
     
     if(entries[entry][0] == "working_paper") $('#working-papers').append(template);
     if(entries[entry][0] == "publication") $('#publications').append(template);
+
   }
 }
