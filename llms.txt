@@ -46,12 +46,29 @@
 - multiple equilibria
 - consumer inattention
 - incomplete models
+- product embeddings
+- fine tuning
 
 
 
 ## Working Papers
 
-- [Demand Estimate with Text and Image Data](https://www.giovannicompiani.com/documents/ssrn-4588941-1.pdf): We propose a demand estimation method that leverages unstructured text and image data to infer substitution patterns. Using pre-trained deep learning models, we extract embeddings from product images and textual descriptions and incorporate them into a random coefficients logit model. This approach enables researchers to estimate demand even when they lack data on product attributes or when consumers value hard-to-quantify attributes, such as visual design or functional benefits. Using data from a choice experiment, we show that our approach outperforms standard attribute-based models in counterfactual predictions of consumers’ second choices. We also apply it across 40 product categories on Amazon.com and consistently find that text and image data help identify close substitutes within each category. 
+- [Demand Estimate with Text and Image Data](https://www.giovannicompiani.com/documents/UnstructuredDemand.pdf): Empirical models of demand for differentiated products rely on low-dimensional
+product representations to capture substitution patterns. These representations
+are increasingly proxied by applying ML methods to high-dimensional, unstructured
+data, including product descriptions and images. When proxies fail to
+capture the true dimensions of differentiation that drive substitution, standard
+workflows will deliver biased counterfactuals and invalid inference. We develop
+a practical toolkit that corrects this bias and ensures valid inference for
+a broad class of counterfactuals. Our approach applies to market-level and/or
+individual data, requires minimal additional computation, is efficient, delivers
+simple formulas for standard errors, and accommodates data-dependent proxies,
+including embeddings from fine-tuned ML models. It can also be used with
+standard quantitative attributes when mismeasurement is a concern. In addition,
+we propose diagnostics to assess the adequacy of the proxy construction
+and dimension. The approach yields meaningful improvements in predicting
+counterfactual substitution in both simulations and an empirical application.
+- [Demand Estimate with Text and Image Data](https://www.giovannicompiani.com/documents/demand-estimation-with-text-and-images.pdf): We propose a demand estimation method that leverages unstructured text and image data to infer substitution patterns. Using pre-trained deep learning models, we extract embeddings from product images and textual descriptions and incorporate them into a random coefficients logit model. This approach enables researchers to estimate demand even when they lack data on product attributes or when consumers value hard-to-quantify attributes, such as visual design or functional benefits. Using data from a choice experiment, we show that our approach outperforms standard attribute-based models in counterfactual predictions of consumers’ second choices. We also apply it across 40 product categories on Amazon.com and consistently find that text and image data help identify close substitutes within each category. 
 - [A Method to Estimate Discrete Choice Models that is Robust to Consumer Search](https://www.giovannicompiani.com/documents/RobustSearch.pdf): We state conditions under which choice data suffices to identify preferences when consumers may not be fully informed about attributes of goods. Our approach can be used to test for full information, forecast how consumers will respond to information, and conduct welfare analysis when consumers are imperfectly informed. In a lab experiment, we successfully forecast the average response to new information when consumers engage in costly search. In data from Expedia, our method identifies which attribute was not immediately visible to consumers in search results, and we then use our model to compute the value of additional information.
 - [An Equilibrium Model of Rollover Lotteries](https://www.giovannicompiani.com/documents/Lotteries.pdf): We develop a novel model of rollover lottery ticket sales, assuming preferences over thrill and money won. Treating the monetary loss on tickets as an implicit price, lottery rules imply an inverse supply curve. Growing jackpots shift the inverse supply down, and help identify the falling demand curve arising from thrill heterogeneity. We nonparametrically estimate the demand for Powerball.<br>Our model allows risk aversion or risk loving preferences, but we show that even slight deviations from risk neutrality deviate from the data tremendously. This is a high stakes empirical test (based on 160 million gamblers) of Rabin’s (2000) calibration theorem that low stakes risk aversion yields implausible larger stakes implications. While ticket buyers are risk neutral, Powerball acts as a risk loving gambler for rollovers up to $540M, but should cap the jackpot at $920M.<br>Aside from the excellent model fit, we check risk neutrality in two ways. First, we characterize how log ticket sales should convexly grow in the log jackpot at least up to $409M — which we verify in Powerball data. Next, lottery odds should scale linearly in the population — which we verify in a regression across forty state rollover lotteries.
 - [When Cryptomining Comes to Town: High Electricity-Use Spillovers to the Local Economy](https://www.giovannicompiani.com/documents/BCM_WP_2023.pdf): Cryptomining, the clearing of cryptocurrency transactions, uses large quantities of electricity. We document that cryptominers' use of local electricity implies higher electricity prices for existing small businesses and households. Studying the electricity market in Upstate NY and using the Bitcoin price as an exogenous shifter of the part of the supply curve faced by the community, we estimate the electricity demand functions for small businesses and households. Based on our estimates, we calculate counterfactual electricity bills, finding that small businesses and households paid an extra $92 million and $204 million annually in Upstate NY because of increased electricity consumption from cryptominers. Local governments in Upstate NY realize more business taxes, but this only offsets a small portion of the costs from higher community electricity bills. Using data on China, where electricity prices are fixed, we find that rationing of electricity in cities with cryptomining entrants deteriorates wages and investments, consistent with crowding-out effects on the local economy. Our results point to a yet-unstudied negative spillover from technology processing to local communities, which would need to be considered against welfare benefits.
@@ -73,7 +90,7 @@
 
 ## Docs
 
-- [CV of Giovanni Compiani](https://www.giovannicompiani.com/documents/Giovanni_Compiani_CV_last.pdf): Cirriculum Vitae of Giovanni Compiani.
+- [CV of Giovanni Compiani](https://www.giovannicompiani.com/documents/Giovanni_Compiani_CV_last.pdf): Curriculum Vitae of Giovanni Compiani.
 
 
 
