@@ -12,7 +12,7 @@
 
     <!-- SEO/LLMO Tags -->
       <!-- Traditional tags -->
-      <meta name="description" property="description" itemprop="description" content="I am an Assistant Professor at the University of Chicago Booth School of Business.  A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about">
+      <meta name="description" property="description" itemprop="description" content="I am an Associate Professor at the University of Chicago Booth School of Business.  A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about">
       <meta name="keywords" content="demand estimation, unstructured data, deep learning, discrete choice models, consumer search, equilibrium model, rollover lotteries, cryptomining, local economy, online platforms, product rankings, recommendation system, investors beliefs, cryptocurrency prices, dynamic models, instrumental variables, state dependence, initial conditions, nonparametric demand estimation, incomplete tax pass-through, multiproduct firm, time perception, scheduling, categories, estimation, field data, endogenous market structure, autocorrelation, state dependence, two-step methods, common values, heterogeneity, endogenous entry, oil lease, auctions, continuous mixture models, finite mixture models, multiple equilibria, consumer inattention, incomplete models" />
 
       <!-- Standard tags -->
@@ -27,11 +27,44 @@
       <meta property="og:type" content="website">
       <meta property="og:url" content="https://www.giovannicompiani.com/home">
       <meta property="og:image" content="https://www.giovannicompiani.com/images/portrait_giovanni_compiani.jpg">
-      <meta property="og:description" content="I am an Assistant Professor at the University of Chicago Booth School of Business.  A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about">
+      <meta property="og:description" content="I am an Associate Professor at the University of Chicago Booth School of Business.  A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about">
 
       <!-- Structured Data Markup -->    
       <script type="application/ld+json">
         [
+          {
+            "@context": "http://schema.org",
+            "@type": "Article",
+            "headline": "From Unstructured Data to Demand Counterfactuals: Theory and Practice",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Giovanni Compiani",
+								"url": "https://www.giovannicompiani.com"
+              },
+              {
+                "@type": "Person",
+                "name": "Timothy Christensen",
+                "url": "https://economics.yale.edu/people/timothy-christensen"
+              }
+            ],
+            "image": "https://www.giovannicompiani.com/images/portrait_giovanni_compiani.jpg",
+            "articleBody": "Empirical models of demand for differentiated products rely on low-dimensional
+product representations to capture substitution patterns. These representations
+are increasingly proxied by applying ML methods to high-dimensional, unstructured
+data, including product descriptions and images. When proxies fail to
+capture the true dimensions of differentiation that drive substitution, standard
+workflows will deliver biased counterfactuals and invalid inference. We develop
+a practical toolkit that corrects this bias and ensures valid inference for
+a broad class of counterfactuals. Our approach applies to market-level and/or
+individual data, requires minimal additional computation, is efficient, delivers
+simple formulas for standard errors, and accommodates data-dependent proxies,
+including embeddings from fine-tuned ML models. It can also be used with
+standard quantitative attributes when mismeasurement is a concern. In addition,
+we propose diagnostics to assess the adequacy of the proxy construction
+and dimension. The approach yields meaningful improvements in predicting
+counterfactual substitution in both simulations and an empirical application."
+          },
           {
             "@context": "http://schema.org",
             "@type": "Article",
@@ -306,7 +339,7 @@
     <!-- End SEO/LLMO Tags -->
 
     <link rel="icon" href="https://www.uchicago.edu/dist/intranet/favicon.ico">   <!-- To change the "favicon" (the image that shows in the browser tab), change the href of this element to the image you want to use. -->
-    <link rel="canonical" href="https://www.giovannicompiani.com" />
+    <link rel="canonical" href="https://giovannicompiani.com" />
 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/main.css" />
@@ -339,9 +372,9 @@
 
     <section>
       <summary id="overview-text">
-        <p>I am an Assistant Professor at the University of Chicago Booth School of Business.</p>
+        <p>I am an Associate Professor at the University of Chicago Booth School of Business.</p>
 
-        <p>A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about economic agents' behavior and, more recently, integrate novel data sources, including unstructured data.</p>
+        <p>A key objective of my research is to enhance the reliability of empirical analyses in quantitative marketing and industrial organization. To achieve this, I develop methods that relax restrictive assumptions about economic agents' behavior and/or integrate novel data sources, including unstructured data.</p>
 
         <p class="custom-btn-group"> 
           <a class="custom-btn" id="cv-btn" href="documents/Giovanni_Compiani_CV_last.pdf" target="_blank"><img src="images/docs.png" alt="Giovanni Compiani's CV" />&nbsp;&nbsp;View my CV</a>
@@ -374,7 +407,38 @@
         <article class="work-entry">
           <ul>
             <li>
-              <a href="documents/ssrn-4588941-1.pdf" target="_blank">"Demand Estimation with Text and Image Data"</a>
+              <a href="documents/UnstructuredDemand.pdf" target="_blank">"From Unstructured Data to Demand Counterfactuals: Theory and Practice"</a>
+            </li>
+          </ul>
+          <p>with <a rel="author" href="https://economics.yale.edu/people/timothy-christensen" target="_blank">Tim Christensen</a></p>
+          <p class="abstract-toggle">[abstract]</p>
+          <main class="abstract">
+           Empirical models of demand for differentiated products rely on low-dimensional
+product representations to capture substitution patterns. These representations
+are increasingly proxied by applying ML methods to high-dimensional, unstructured
+data, including product descriptions and images. When proxies fail to
+capture the true dimensions of differentiation that drive substitution, standard
+workflows will deliver biased counterfactuals and invalid inference. We develop
+a practical toolkit that corrects this bias and ensures valid inference for
+a broad class of counterfactuals. Our approach applies to market-level and/or
+individual data, requires minimal additional computation, is efficient, delivers
+simple formulas for standard errors, and accommodates data-dependent proxies,
+including embeddings from fine-tuned ML models. It can also be used with
+standard quantitative attributes when mismeasurement is a concern. In addition,
+we propose diagnostics to assess the adequacy of the proxy construction
+and dimension. The approach yields meaningful improvements in predicting
+counterfactual substitution in both simulations and an empirical application.
+<br>
+            <b>Keywords:&nbsp;</b>Demand Estimation, Unstructured Data, Fine Tuning, Product Embeddings
+          </main>
+        </article>
+        <br>
+
+        <!-- Copy this block to create a new entry in this section -->
+        <article class="work-entry">
+          <ul>
+            <li>
+              <a href="documents/demand-estimation-with-text-and-images.pdf" target="_blank">"Demand Estimation with Text and Image Data"</a>
             </li>
           </ul>
           <p>with <a rel="author" href="https://sites.google.com/stanford.edu/imorozov/home" target="_blank">Ilya Morozov</a> and <a rel="author" href="https://www.seilerstephan.com/research" target="_blank">Stephan Seiler</a></p>, <i>Revision requested at <b>The RAND Journal of Economics</b></i>
@@ -386,24 +450,6 @@
           </main>
         </article>
         <br>
-        <!-- This is the end of an individual list item -->
-
-
-        <!-- Copy this block to create a new entry in this section -->
-       <!--  <article class="work-entry">
-          <ul>
-            <li>
-              <a href="documents/RobustSearch.pdf" target="_blank">"A Method to Estimate Discrete Choice Models that is Robust to Consumer Search"</a>
-            </li>
-          </ul>
-          <p>with <a rel="author" href="https://som.yale.edu/faculty/jason-abaluck" target="_blank">Jason Abaluck</a> and <a rel="author" href="https://sites.google.com/view/fan-zhang-site" target="_blank">Fan Zhang</a></p>
-          <p><i>Revision Requested at <b>The Journal of Political Economy</b></i></p>
-          <p class="abstract-toggle">[abstract]</p>
-          <main class="abstract">
-            We state conditions under which choice data suffices to identify preferences when consumers may not be fully informed about attributes of goods. Our approach can be used to test for full information, forecast how consumers will respond to information, and conduct welfare analysis when consumers are imperfectly informed. In a lab experiment, we successfully forecast the average response to new information when consumers engage in costly search. In data from Expedia, our method identifies which attribute was not immediately visible to consumers in search results, and we then use our model to compute the value of additional information.
-          </main>
-        </article>
-        <br> -->
         <!-- This is the end of an individual list item -->
 
 
@@ -425,7 +471,7 @@
 
 
         <!-- Copy this block to create a new entry in this section -->
-        <!--<article class="work-entry">
+        <article class="work-entry">
           <ul>
             <li>
               <a href="documents/BCM_WP_2023.pdf" target="_blank">"When Cryptomining Comes to Town: High Electricity-Use Spillovers to the Local Economy"</a>
@@ -437,7 +483,7 @@
             Cryptomining, the clearing of cryptocurrency transactions, uses large quantities of electricity. We document that cryptominers’ use of local electricity implies higher electricity prices for existing small businesses and households. Studying the electricity market in Upstate NY and using the Bitcoin price as an exogenous shifter of the part of the supply curve faced by the community, we estimate the electricity demand functions for small businesses and households. Based on our estimates, we calculate counterfactual electricity bills, finding that small businesses and households paid an extra $92 million and $204 million annually in Upstate NY because of increased electricity consumption from cryptominers. Local governments in Upstate NY realize more business taxes, but this only offsets a small portion of the costs from higher community electricity bills. Using data on China, where electricity prices are fixed, we find that rationing of electricity in cities with cryptomining entrants deteriorates wages and investments, consistent with crowding-out effects on the local economy. Our results point to a yet-unstudied negative spillover from technology processing to local communities, which would need to be considered against welfare benefits.
           </main>
         </article>
-        <br>-->
+        <br>
         <!-- This is the end of an individual list item -->
       </span>
       <br>
@@ -593,7 +639,7 @@
 
 
         <!-- Copy this block to create a new entry in this section -->
-        <!--<article class="work-entry">
+        <article class="work-entry">
           <ul>
             <li>
               <a href="documents/Mixtures.pdf" target="_blank">"Using Mixtures in Econometric Models: a Brief Review and Some New Results"</a>
@@ -603,11 +649,11 @@
           <p class="abstract-toggle">[abstract]</p>
           <main class="abstract">
             This paper is concerned with applications of mixture models in econometrics. Focused attention is given to semiparametric and nonparametric models that incorporate mixture distributions, where important issues about model specifications arise. For example, there is a significant difference between a finite mixture and a continuous mixture in terms of model identifiability. Likewise, the dimension of the latent mixing variables is a critical issue, in particular when a continuous mixture is used. We present applications of mixture models to address various problems in econometrics, such as unobserved heterogeneity and multiple equilibria. New nonparametric identification results are developed for finite mixture models with testable exclusion restrictions without relying on an identification-at-infinity assumption on covariates. The results apply to mixtures with both continuous and discrete covariates, delivering point identification under weak conditions.
+            <br>
+            <b>Keywords:&nbsp;</b>Continuous mixture models, Finite mixture models, Multiple equilibria, Nonparametric identification, Unobserved heterogeneity
           </main>
-          <br>
-          <b>Keywords:&nbsp;</b>Continuous mixture models, Finite mixture models, Multiple equilibria, Nonparametric identification, Unobserved heterogeneity
         </article>
-        <br>-->
+        <br>
         <!-- This is the end of an individual list item -->
       </span>
 
